@@ -118,9 +118,12 @@
 }
 
 .gn-menu {
+	
+		position: relative;	
 		border-bottom: 1px solid #c6d0da;
 		text-align: left;
 		font-size: 18px;
+		z-index: 2;
 }
 
 .gn-menu li:not(:first-child),
