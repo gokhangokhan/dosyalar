@@ -1,7 +1,5 @@
 
-.container, .scroller {
-	height: 100%;
-}
+
 
 .scroller {
 	overflow-y: scroll;
