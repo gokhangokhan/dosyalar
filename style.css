@@ -41,7 +41,7 @@
 .wrapper-dropdown-1 {
     /* Size and position */
     position: relative; /* Enable absolute positionning for children and pseudo elements */
-    width: 100px;
+    width: 200px;
     padding: 10px;
     margin: 0 auto;
 
