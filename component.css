@@ -48,6 +48,7 @@
 	left: 0;
 	z-index: 1;
 	
+	height: 100%;
 	-webkit-transform: translate3d(-100%, 0, 0);
 	-moz-transform: translate3d(-100%, 0, 0);
 	transform: translate3d(-100%, 0, 0);
@@ -57,7 +58,9 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	
+	width: 400%;
+	height: 100%;
+	background: #336ca6;
 	-webkit-transform: translate3d(-100%, 0, 0);
 	-moz-transform: translate3d(-100%, 0, 0);
 	transform: translate3d(-100%, 0, 0);
@@ -70,6 +73,7 @@
 	position: absolute;
 	top: 0;
 	right: 0;
+
 	width: 0;
 	height: 0;
 	content: '';
