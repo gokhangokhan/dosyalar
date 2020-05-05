@@ -10,9 +10,7 @@
 	height: 100%;
 }
 
-.scroller {
-	overflow-y: scroll;
-}
+
 
 .scroller,
 .scroller-inner {
