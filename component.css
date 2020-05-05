@@ -7,7 +7,7 @@
 
 .scroller,
 .scroller-inner {
-	position: absolute;
+	position: static;
 }
 
 .container {
