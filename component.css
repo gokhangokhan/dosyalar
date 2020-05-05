@@ -11,7 +11,7 @@
 }
 
 .container {
-	position: absolute;
+	position: static;
 	overflow: hidden;
 	background: #34495e;
 }
