@@ -11,19 +11,17 @@ html, body, .container, .scroller {
 }
 
 .scroller {
-	overflow-y: auto;
+	overflow-y: scroll;
 }
 
 .scroller,
 .scroller-inner {
-	background-repeat: no-repeat;
 	position: relative;
 }
 
 .container {
-	background-repeat: no-repeat;
 	position: relative;
-	overflow: auto;
+	overflow: hidden;
 	background: #34495e;
 }
 
