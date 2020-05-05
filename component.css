@@ -1,5 +1,15 @@
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
-
+html, body, .container, .scroller {
+	height: 100%;
+	weight: 100%;
+}
 
 .scroller {
 	overflow-y: scroll;
@@ -7,20 +17,13 @@
 
 .scroller,
 .scroller-inner {
-	position: static;
+	position: relative;
 }
 
 .container {
-	position: static;
+	position: relative;
 	overflow: hidden;
 	background: #34495e;
-}
-
-.menu-trigger {
-	position: relative;
-	padding-left: 60px;
-	font-size: 0.9em;
-}
 
 .menu-trigger:before {
 	position: absolute;
