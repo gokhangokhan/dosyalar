@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-html, body, .container, .scroller {
+ .container, .scroller {
 	height: 100%;
 }
 
