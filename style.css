@@ -25,7 +25,8 @@
     margin: 1px 1px 1px 1px;
     *zoom: 1;
     font-weight: 400;
-  
+    position: absolute;
+    
     
 }
 
