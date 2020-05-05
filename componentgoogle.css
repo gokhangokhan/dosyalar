@@ -225,7 +225,7 @@ input.gn-search:focus {
 		-webkit-font-smoothing: antialiased;
 }
 
-.gn-icon-help::before {
+/* .gn-icon-help::before {
 		content: "\e000"
 }
 
@@ -269,7 +269,7 @@ input.gn-search:focus {
 		content: "\e009"
 }
 
-/* if an icon anchor has a span, hide the span */
+if an icon anchor has a span, hide the span */
 
 .gn-icon span {
 		width: 0;
