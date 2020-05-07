@@ -554,10 +554,10 @@ ul.social li:hover {
 .nav {
   width: 80px;
   height: 120px;
-  background: #fff;
+  
   position: fixed;
   right: 0;
-   top: 200px;
+   top: 300px;
   z-index: 9999;
 
   
