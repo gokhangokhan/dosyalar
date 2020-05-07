@@ -194,7 +194,7 @@ body.homepage {
   right: 0;
   overflow: scroll;
  
-  width: 300px;
+  width: 450px;
   height: 600px;
   
   
@@ -206,7 +206,7 @@ body.homepage {
 
 .menu-shelf {
   background: #fff;
-  width: 45vw;
+  width: 600px;
   height: 100vh;
   position: relative;
   overflow: hidden;
@@ -557,7 +557,7 @@ ul.social li:hover {
   
   position: fixed;
   right: 0;
-   top: 300px;
+   top: 100px;
   z-index: 9999;
 
   
