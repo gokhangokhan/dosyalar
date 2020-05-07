@@ -551,7 +551,7 @@ ul.social li:hover {
   height: 100vh;
   background: #fff;
   position: fixed;
-  right: 0;
+  left: 0;
   border-right: 2px solid #f0f0f0;
   z-index: 9999;
 }
