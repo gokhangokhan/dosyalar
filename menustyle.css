@@ -554,7 +554,7 @@ ul.social li:hover {
    
   z-index: 9999;
   
-  margin-top:-100px ;
+  margin-top: 130px ;
   
   
 }
@@ -584,7 +584,7 @@ a.logo:hover:after {
 .logo-menu {
   cursor: pointer;
   display: block;
-  margin:  100px 0px;
+  margin: 47vh 0;
   cursor: pointer;
 }
 
