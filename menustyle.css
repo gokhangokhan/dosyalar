@@ -152,7 +152,7 @@ li {
   display: block;
 }
 
-/* body {
+/*body {
   background: #f0f0f0;
   margin: 0;
   left: 433px;
@@ -191,9 +191,9 @@ body.homepage {
   
 }
 
-.open-nav {
+/*/* .open-nav */ {
   background: rgba(0, 0, 0, 0.5);
-}
+}*/
 
 .menu-shelf {
   background: #fff;
@@ -219,10 +219,10 @@ body.homepage {
   display:none;
 }
 
-.open-nav + .navigation:after {
+/*/* .open-nav */ + .navigation:after {
   background: rgba(0,0,0,0.25);
   display:block;
-}
+}*/
 
 .menu-shelf > * {
   opacity: 0;
@@ -232,7 +232,7 @@ body.homepage {
           transform: translate(0px, 10px);
 }
 
-.open-nav .menu-shelf > * {
+/* .open-nav */ .menu-shelf > * {
   opacity: 1;
   -webkit-transition: 0.5s opacity ease-in-out, 0.5s transform ease-in-out;
   transition: 0.5s opacity ease-in-out, 0.5s transform ease-in-out;
@@ -242,32 +242,32 @@ body.homepage {
           transform: translate(0px, 0px);
 }
 
-.open-nav .menu-shelf > *:nth-child(1) {
+/* .open-nav */ .menu-shelf > *:nth-child(1) {
   -webkit-transition-delay: 0.35s;
           transition-delay: 0.35s;
 }
 
-.open-nav .menu-shelf > *:nth-child(2) {
+/* .open-nav */ .menu-shelf > *:nth-child(2) {
   -webkit-transition-delay: 0.5s;
           transition-delay: 0.5s;
 }
 
-.open-nav .menu-shelf > *:nth-child(3) {
+/* .open-nav */ .menu-shelf > *:nth-child(3) {
   -webkit-transition-delay: 0.6s;
           transition-delay: 0.6s;
 }
 
-.open-nav .menu-shelf > *:nth-child(4) {
+/* .open-nav */ .menu-shelf > *:nth-child(4) {
   -webkit-transition-delay: 0.7s;
           transition-delay: 0.7s;
 }
 
-.open-nav .menu-shelf > *:nth-child(5) {
+/* .open-nav */ .menu-shelf > *:nth-child(5) {
   -webkit-transition-delay: 0.8s;
           transition-delay: 0.8s;
 }
 
-.open-nav .menu-shelf > *:nth-child(6) {
+/* .open-nav */ .menu-shelf > *:nth-child(6) {
   -webkit-transition-delay: 0.9s;
           transition-delay: 0.9s;
 }
@@ -277,7 +277,7 @@ body.homepage {
           transform: rotatey(180deg);
 }
 
-.open-nav .menu-shelf ul.social a li {
+/* .open-nav */ .menu-shelf ul.social a li {
   -webkit-transition: 0.5s transform ease-in-out;
   transition: 0.5s transform ease-in-out;
   -webkit-transform: rotatey(0deg);
@@ -286,7 +286,7 @@ body.homepage {
           transition-delay: 0.6s;
 }
 
-.open-nav .menu-shelf ul.social li:before {
+/* .open-nav */ .menu-shelf ul.social li:before {
   -webkit-transition: 0.3s color ease-in-out;
   transition: 0.3s color ease-in-out;
   -webkit-transition-delay: 0s;
@@ -305,7 +305,7 @@ body.homepage {
  
 
 
-.open-nav + .menu-bg {
+/* .open-nav */ + .menu-bg {
     display: block;
     background: rgba(0,0,0,0.5);
 }
@@ -417,7 +417,7 @@ body.homepage {
 
 */
 
-/*.open-nav .tab_content .tabs_item:nth-child(1) {
+/*/* .open-nav */ .tab_content .tabs_item:nth-child(1) {
   opacity: 1;
 } this is used to fix about section probably won't need it*/
 
@@ -425,7 +425,7 @@ body.homepage {
   overflow: hidden;
 }
 
-.open-nav .tab_content .tabs_item {
+/* .open-nav */ .tab_content .tabs_item {
   opacity: 0;
   -webkit-transform: translatey(20px);
           transform: translatey(20px);
@@ -433,7 +433,7 @@ body.homepage {
   transition: 0.5s opacity ease-in-out, 0.5s transform ease-in-out;
 }
 
-.open-nav .tab_content .active_tab_content {
+/* .open-nav */ .tab_content .active_tab_content {
   opacity: 1;
   -webkit-transform: translatey(0px);
           transform: translatey(0px);
@@ -550,13 +550,13 @@ ul.social li:hover {
   left: 0;
   border-right: 2px solid #f0f0f0;
   z-index: 9999;
-  top: 0;
-  margin-top: 0;
+  top: 40;
+  
   bottom: 0;
 }
 
 a.logo:after {
-    content: 'ALEX COVEN';
+     
     width: 0px;
     font-size: 26px;
     letter-spacing: 1px;
@@ -606,7 +606,7 @@ button  {
   transition: 0.5s all cubic-bezier(.87, -.41, .19, 1.44);
 }
 
-.open-nav .menu-shelf {
+/* .open-nav */ .menu-shelf {
   -webkit-animation: shelf 0.5s forwards linear alternate;
           animation: shelf 0.5s forwards linear alternate;
   box-sizing: content-box;
