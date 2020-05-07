@@ -553,15 +553,23 @@ ul.social li:hover {
 
 .nav {
   width: 80px;
-  /*height: 100vh; */
+  height: 120px;
   background: #fff;
   position: fixed;
   right: 0;
-   top: 0;
+   top: 200px;
   z-index: 9999;
 
   
   
+}
+
+.yazı {
+	top: 99px;
+    right: -18px;
+    position: relative;
+	text-align: center;
+	
 }
 
 a.logo:after {
