@@ -1044,8 +1044,8 @@ ul.pagination a:hover > li{
     z-index: 9999;
   }
 .navigation {
-	width: 10%;
-	height: 520px;
+	width: 100%;
+        height: 100%;
 	position: fixed;
 	z-index: 9999;
 
@@ -1062,8 +1062,8 @@ ul.pagination a:hover > li{
   .menu-shelf {
     width: 100%;
     height: 100vh;
-    margin-top: 80px;
-    bottom: 0px;	  
+    
+    	  
   }
   .container {
     margin: 0px
