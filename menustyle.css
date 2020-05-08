@@ -1044,11 +1044,11 @@ ul.pagination a:hover > li{
     z-index: 9999;
   }
 .navigation {
-	width: %100;
+	width: %50;
 	height: 220px;
 	position: fixed;
 	z-index: 9999;
-	bottom: 0px;
+	
 	r
 	
 	}
