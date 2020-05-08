@@ -1034,8 +1034,8 @@ ul.pagination a:hover > li{
 	
 	
 .nav {
-    width: 70%;
-    height: 190px;
+    width: 80px;
+    height: 120px;
     position: fixed;
     right: 0;
     border-right: 0 solid #f0f0f0;
@@ -1043,7 +1043,12 @@ ul.pagination a:hover > li{
     top: 100px;
     z-index: 9999;
   }
-  
+.navigation {
+	width: %70;
+	height: 120px;
+	position: fixed;
+	z-index: 9999;
+	}
   
   
   .logo-menu {
