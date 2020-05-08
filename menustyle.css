@@ -1068,7 +1068,16 @@ ul.pagination a:hover > li{
 	
 	}
 	
-	
+	.nav {
+    width: 180px;
+    height: 120px;
+    border-right: 0 solid #f0f0f0;
+    right: 70px;
+    top: -40px;
+    z-index: 9999;
+    margin: auto;
+    
+  }
 	
 	b{
 	left:0px;
