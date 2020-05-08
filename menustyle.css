@@ -1078,6 +1078,14 @@ ul.pagination a:hover > li{
     margin: auto;
     
   }
+	.yazi {
+    top: 30px;
+    right: 18px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    font-size: 8pt;
+   }
 	
 	b{
 	left:0px;
