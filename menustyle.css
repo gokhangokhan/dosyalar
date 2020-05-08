@@ -1048,6 +1048,8 @@ ul.pagination a:hover > li{
 	height: 120px;
 	position: fixed;
 	z-index: 9999;
+	top: 0px;
+	
 	}
   
   
