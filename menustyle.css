@@ -6,6 +6,14 @@
   font-family: 'entypo', sans-serif;
 }
 
+table {
+	
+	width: 70%;
+	
+	
+	}
+
+
 
 td{
 
@@ -1053,7 +1061,10 @@ ul.pagination a:hover > li{
 
 @media (max-width: 600px) {
 	
-}
+	
+	
+	
+	
 	b{
 	left:0px;
 margin-left: 0px;
