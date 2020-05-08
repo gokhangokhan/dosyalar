@@ -16,13 +16,7 @@ padding-left: 0px;
 text-align: left;
 }
 
-b{
-	left:0px;
-margin-left: 0px;
-font-size: 5pt;
-	text-align:left;
 
-}
 
 
 
@@ -1058,6 +1052,17 @@ ul.pagination a:hover > li{
 
 
 @media (max-width: 600px) {
+	
+	
+	b{
+	left:0px;
+margin-left: 0px;
+font-size: 5pt;
+	text-align:left;
+
+}
+	
+	
 	
 	td{
 	
