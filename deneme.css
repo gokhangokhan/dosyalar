@@ -24,7 +24,6 @@ h4, h5, h6 {
   */
 /* Brandon */
 
- 
 
 
 * {
@@ -146,6 +145,16 @@ button.text {
 */
 ul {padding: 0;}
 
+
+
+table {
+    width: 70%;
+
+
+}
+
+
+
 li {
   list-style: none;
 
@@ -175,6 +184,8 @@ li {
 
 body.homepage {
 }
+
+
 
 .container {
   display: -webkit-box;
