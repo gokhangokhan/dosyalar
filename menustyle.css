@@ -172,6 +172,12 @@ li {
   margin-right: 80px;
   position: relative;
 }*/
+b{
+margin-left: 0px;
+font-size: 8pt;
+}
+
+
 
 body.homepage {
 }
@@ -189,7 +195,7 @@ body.homepage {
 .navigation {
   background: rgba(0, 0, 0, 0);
   position: fixed;
-  z-index: 99999;
+  z-index: 999;
   top: 300px;
   right: 0;
   overflow: scroll;
@@ -1043,17 +1049,9 @@ ul.pagination a:hover > li{
 	font-size: 8pt;
 	left: 0px;
 	
+		
 	}
-.nav {
-    width: 80px;
-    height: 120px;
-    position: fixed;
-    right: 0;
-    border-right: 0 solid #f0f0f0;
-	right: 0;
-    top: 100px;
-    z-index: 9999;
-  }
+
  
   
   .logo-menu {
