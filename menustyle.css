@@ -5,6 +5,16 @@
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
 }
+
+td, th{
+
+
+font-size: 13pt;
+font-family: verdana;
+
+
+}
+
 /*
 h1, h2 {
   font-family: "brandon-grotesque",sans-serif!important;
