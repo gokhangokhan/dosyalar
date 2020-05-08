@@ -1031,6 +1031,9 @@ ul.pagination a:hover > li{
 
 
 @media (max-width: 600px) {
+	
+	
+	
 	table{
 	     width: 90%;
 	
@@ -1051,13 +1054,13 @@ ul.pagination a:hover > li{
     border-right: 0 solid #f0f0f0;
 	right: 0;
     top: 100px;
-    z-index: 9999;
+    z-index: -9999;
   }
 .navigation {
 	width: 100%;
         height: 100%;
 	position: fixed;
-	z-index: 9999;
+	z-index: -9999;
 
 	
 	}
