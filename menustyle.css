@@ -1054,27 +1054,7 @@ ul.pagination a:hover > li{
     top: 100px;
     z-index: 9999;
   }
-.navigation {
-	width: 100%;
-        height: 100%;
-	position: fixed;
-	z-index: 9999;
-	}
-
-.navigation:after {
  
-  background: rgba(0,0,0,0);
-  height: 100vh;
-  width: 100vw;
-  display: block;
-  position: fixed;
- 
-  right: 0;
-  z-index: -1;
-  display:none;
-  margin-top: 222px;
-}
-
   
   .logo-menu {
     margin: 0;
