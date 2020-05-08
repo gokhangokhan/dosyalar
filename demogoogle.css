@@ -51,13 +51,7 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-.codrops-icon-drop:before {
-	content: "\e001";
-}
 
-.codrops-icon-prev:before {
-	content: "\e004";
-}
 
 /* Demo Buttons Style */
 .codrops-demos {
