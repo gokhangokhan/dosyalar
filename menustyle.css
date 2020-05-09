@@ -253,6 +253,7 @@ body.homepage {
   display: none;
   max-width: 450px;
   overflow: scroll;
+  border-top-left-radius: 5px;	
 }
 
 .navigation:after {
