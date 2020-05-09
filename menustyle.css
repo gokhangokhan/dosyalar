@@ -4,8 +4,10 @@
 
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
-	
+  font-size: 30pt;
+  color: green;
 }
+
 
 .entypo-moon:before {
     content: "\263d";
