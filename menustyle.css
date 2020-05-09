@@ -236,7 +236,7 @@ body.homepage {
  
   width: 450px;
   height: 600px;
-  
+  border-top-left-radius: 5px;	
   
 }
 
@@ -253,7 +253,7 @@ body.homepage {
   display: none;
   max-width: 450px;
   overflow: scroll;
-  border-top-left-radius: 5px;	
+  
 }
 
 .navigation:after {
