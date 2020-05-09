@@ -4,7 +4,14 @@
 
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
+	
 }
+
+.entypo-moon:before {
+    content: "\263d";
+}
+
+
 
 table {
 	
