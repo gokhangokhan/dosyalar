@@ -2,15 +2,14 @@
 
 /* entypo */
 
-
-
-
-.entypo-moon:before {
-    content: "\263d";
-   font-family: 'entypo', sans-serif;
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
   font-size: 30pt;
   color: green;
 }
+
+
+
 
 
 
