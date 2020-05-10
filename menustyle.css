@@ -5,7 +5,14 @@
  
 }
 
+.entypo-moon {
+	height: 60px; 
+	padding-top: 10px; 
+	text-align: center; 
+	width: 80px;
 
+
+}
 
 .entypo-moon:before {
     content: "\263d";
