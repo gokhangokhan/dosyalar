@@ -255,7 +255,8 @@ body.homepage {
   overflow: scroll;
  
   width: 450px;
-  height: 600px;
+  /*height: 600px */
+  bottom: 0px;
   border-top-left-radius: 5px;	
   
 }
