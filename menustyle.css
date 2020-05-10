@@ -268,7 +268,7 @@ body.homepage {
 .menu-shelf {
   background: #fff;
   width: 600px;
-  height: 100vh;
+  height: 50%;
   position: relative;
   overflow: hidden;
   display: none;
