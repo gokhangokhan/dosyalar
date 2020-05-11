@@ -35,14 +35,14 @@
 
 table {
 	
-	width: 70%;
+	width: 70% !important;
 	
 	
 	}
 
 
 	.tablob{
-		width: 100%;
+		width: 100% !important;
 	
 	
 	}
@@ -257,12 +257,12 @@ body.homepage {
   background: rgba(0, 0, 0, 0);
   position: fixed;
   z-index: 1;
-  top: 300px;
+  /*top: 300px;*/
   right: 0;
   overflow: scroll;
  
   width: 450px;
-  /*height: 600px */
+  height: 55% ;
   bottom: 0px;
   border-top-left-radius: 5px;	
   
@@ -1103,7 +1103,7 @@ ul.pagination a:hover > li{
 	
 	table {
 	
-	width: 100%;
+	width: 100% !important;
 	
 	
 	}
