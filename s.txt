@@ -1,7 +1,18 @@
 #EXTM3U
 
-#EXTINF:0,TRT 1 HD
+#EXTINF:0,Star HD
 http://lcgid8xu.rocketcdn.com/startvhd.stream_720p/chunklist.m3u8
 
-#EXTINF:0,harry HD
-https://www2114.o0-5.com/token=viDXU6wR6OnTdMfuHssltQ/1589667493/45.135.0.0/69/a/9f/40798eb8e30244ea5545f727c13cb9fa-720p.mp4
+#EXTINF:0,trt1
+https://tv-trt1.live.trt.com.tr/master_720.m3u8
+
+#EXTINF:0,trt2
+https://tv-trt2.live.trt.com.tr/master_720.m3u8
+
+#EXTINF:0,trt Haber
+https://tv-trthaber.live.trt.com.tr/master_720.m3u8
+
+#EXTINF:0,atv
+http://streams.livetv.az/turk/atv_turk_sd/playlist.m3u8
+
+
