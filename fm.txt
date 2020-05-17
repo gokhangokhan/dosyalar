@@ -1,0 +1,27 @@
+#EXTM3U
+
+#EXTINF:0,trt1
+https://tv-trt1.live.trt.com.tr/master_720.m3u8
+
+#EXTINF:-1,TLC HD
+http://pa9agxjg.rocketcdn.com/tlctv.smil/chunklist_b2328000_sltur.m3u8
+
+#EXTINF:0,atv
+http://streams.livetv.az/turk/atv_turk_sd/playlist.m3u8
+
+
+#EXTINF:0,Star HD
+http://lcgid8xu.rocketcdn.com/startvhd.stream_720p/chunklist.m3u8
+
+
+
+#EXTINF:0,trt2
+https://tv-trt2.live.trt.com.tr/master_720.m3u8
+
+#EXTINF:0,trt Haber
+https://tv-trthaber.live.trt.com.tr/master_720.m3u8
+
+#EXTINF:0,film
+https://s428man.storage.yandex.net/rdisk/c73626d7fab91af772e7d190377e4449d3c239a421bbcd9eb7123e2b043d1afa/5ec193d4/rID96N-c79Z-zQjqmHar0gH1_fzWPBgZIjbXfJ4R2rLd9hm7TrTiYp2P0qTS3R6XsnfMc6oYbbdpiSGjBRxoZA==?uid=0&filename=Harry%20Potter%20ve%20S%C4%B1rlar%20Odas%C4%B1%20T%C3%BCrk%C3%A7e%20Dublaj%20720p%20HD%20izle.mp4&disposition=attachment&hash=&limit=0&content_type=video%2Fmp4&owner_uid=0&fsize=1389093602&hid=3bd8f44429a324e699302574f3de2f7e&media_type=video&tknv=v2&etag=69ad190081900ddf68a5948edef878ab&rtoken=NsCCQhkjTvrl&force_default=no&ycrid=na-c596fa2ac52ca8374992979cb929aa8e-downloader23f&ts=5a5dd41ed9d00&s=849fd1cee72abc52940077e7ed9494defe1f39e0d14c96af8f2b93faf059fd7e&pb=U2FsdGVkX19_wGeU4XPX8DBc1Bp80f-BghaHKOvgUNuYM0bBDKa9V_z7eAQ09DLTUVJBBrAr04RspFU5RoqeTSsGZZYoeWXDbeOpQUu603A
+
+
