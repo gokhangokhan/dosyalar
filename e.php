@@ -1,4 +1,4 @@
-<?php
+
 function ya_link( $url){
     $url = "https://cloud-api.yandex.net:443/v1/disk/public/resources/download?public_key=" . urlencode( $url );
     $options = array(
