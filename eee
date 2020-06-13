@@ -1,25 +1,26 @@
-function get_stat( $url, $headers )
-{
-    $handle = curl_init();
-    curl_setopt( $handle, CURLOPT_URL, $url );
-    curl_setopt( $handle, CURLOPT_HTTPHEADER, $headers );
-    curl_setopt( $handle, CURLOPT_SSL_VERIFYPEER, false );
-    curl_setopt( $handle, CURLOPT_SSL_VERIFYHOST, false );
-    curl_setopt( $handle, CURLOPT_RETURNTRANSFER, true );
-    $response = curl_exec( $handle );
-    $code = curl_getinfo( $handle, CURLINFO_HTTP_CODE );
-    return array( "code" => $code, "response" => $response );
+<?php
+function ya_link( $url){
+    $url = "https://cloud-api.yandex.net:443/v1/disk/public/resources/download?public_key=" . urlencode( $url );
+    $options = array(
+            CURLOPT_RETURNTRANSFER => true,     // return web page
+            CURLOPT_FOLLOWLOCATION => true,     // follow redirects
+            CURLOPT_ENCODING       => "",       // handle all encodings
+            CURLOPT_AUTOREFERER    => true,     // set referer on redirect
+            CURLOPT_CONNECTTIMEOUT => 12,       // timeout on connect
+            CURLOPT_TIMEOUT        => 12,       // timeout on response
+            CURLOPT_MAXREDIRS      => 10,       // stop after 10 redirects
+        //  CURLOPT_HTTPHEADER => array('Authorization:TOKEN'), //Send Disk access token
+        CURLOPT_SSL_VERIFYPEER => false     // Disabled SSL Cert checks
+        );
+    $ch = curl_init( $url );
+    curl_setopt_array( $ch, $options );
+    $content = curl_exec( $ch );
+    curl_close( $ch );
+    $json = json_decode($content);
+    if(isset($json->href))
+        return $json->href;
+    else 
+        return '';
 }
 
-$url_yandex_disk = "https://yadi.sk/i/bxiDyczj4xqFIA";
-
-$result = get_stat( "https://cloud-api.yandex.net:443/v1/disk/public/resources/download?public_key=" . urlencode( $url_yandex_disk ), array() );
-if( $result["code"] == 200 )
-{
-  $result["response"] = json_decode( $result["response"], true );
-  echo '<a href="' . $result["response"]["href"] . '">Скачать</a>';
-}
-else
-{
-  echo "error";
-}
+echo ya_link("https://yadi.sk/i/bxiDyczj4xqFIA");
